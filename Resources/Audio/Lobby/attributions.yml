@@ -1,49 +1,49 @@
-﻿- files: ["Joe_Swanson_is_UNDEFEATABLE.ogg"]
+﻿- files: ["undefeatable.ogg"]
   license: ":)"
   copyright: "-UNDEFEATABLE from Sonic Forces. Crafting Vegeto AI Joe Swanson Cover."
   source: "https://www.youtube.com/watch?v=SS3HxhclXYQ"
 
-- files: ["2005-2007_RuneScape_Login_Music.ogg"]
+- files: ["runescape_login_music.ogg"]
   license: ":)"
   copyright: "-Jagex"
   source: "https://www.youtube.com/watch?v=2xfH-F-8ytk"
 
-- files: ["Ellinia_When_the_Morning_Comes.ogg"]
+- files: ["whenthemorningcomes.ogg"]
   license: ":)"
   copyright: "-Nexon, MapleStory BGM"
   source: "https://www.youtube.com/watch?v=gfgBDs8z6WE"
 
-- files: ["Maplestory_Theme_Music.ogg"]
+- files: ["maplestorylogin.ogg"]
   license: ":)"
   copyright: "-Nexon, MapleStory Login"
   source: "https://www.youtube.com/watch?v=0qj4hgJeSe4"
 
-- files: ["WotLK_Login_Screen.ogg"]
+- files: ["wotlklogin.ogg"]
   license: ":)"
   copyright: "-Blizzard, WotLK Login"
   source: "https://www.youtube.com/watch?v=hMAh0JfEzk0"
 
-- files: ["E.G.G.M.A.N.ogg"]
+- files: ["eggman.ogg"]
   license: ":)"
   copyright: "-by Paul Shortino (Theme of Dr. Eggman)"
   source: "https://www.youtube.com/watch?v=CvERHiTfx9w"
 
-- files: ["Undertale_Megalovania.ogg"]
+- files: ["megalovania.ogg"]
   license: ":)"
   copyright: "-by Toby Fox"
   source: "https://www.youtube.com/watch?v=wDgQdr8ZkTw"
 
-- files: ["Seven_Rings_In_Hand.ogg"]
+- files: ["sevenringsinhand.ogg"]
   license: ":)"
   copyright: "-by Steve Conte, Runblebee, Kenichi Tokoi"
   source: "https://www.youtube.com/watch?v=QKqgroUYvPU"
 
-- files: ["Kingdom_Hearts_II-Sanctuary.ogg"]
+- files: ["kh2sanctuary.ogg"]
   license: ":)"
   copyright: "-Square Enix"
   source: "https://www.youtube.com/watch?v=HTUq3Ik1GHM"
 
-- files: ["Pursuing_My_True_Self.ogg"]
+- files: ["pursuingmytrueself.ogg"]
   license: ":)"
   copyright: "-Atlas, Persona 4 intro"
   source: "https://www.youtube.com/watch?v=E4n3Am3J7UE"

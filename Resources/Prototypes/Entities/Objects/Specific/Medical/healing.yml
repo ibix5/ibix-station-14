@@ -969,3 +969,17 @@
         reagents:
         - ReagentId: Stimulants
           Quantity: 15
+
+#Additional drugs
+- type: entity
+  name: fentanyl
+  parent: Pill
+  id: PillFentanyl
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fentanyl
+          Quantity: 15

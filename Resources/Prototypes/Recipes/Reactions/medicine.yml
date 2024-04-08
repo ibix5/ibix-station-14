@@ -574,3 +574,12 @@
       amount: 2
   products:
       Aloxadone: 4
+
+- type: reaction
+  id: Fentanyl
+  minTemp: 674
+  reactants:
+    SpaceDrugs:
+      amount: 3
+  products:
+    Fentanyl: 3

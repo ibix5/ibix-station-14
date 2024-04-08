@@ -39,3 +39,6 @@ reagent-desc-norepinephric-acid = A smooth chemical that blocks the optical rece
 
 reagent-name-tear-gas = tear gas
 reagent-desc-tear-gas = A chemical that causes severe irritation and crying, commonly used in riot control.
+
+reagent-name-fentanyl = fentanyl
+reagent-desc-fentanyl = A dangerous drug that makes you faster and harder to knock down. Severe nerval stress is certain.
