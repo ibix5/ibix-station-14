@@ -457,3 +457,44 @@
         type: Add
         time: 5
         refresh: false
+#additional drugs
+- type: reagent
+  id: Fentanyl
+  name: reagent-name-fentanyl
+  group: Narcotics
+  desc: reagent-desc-fentanyl
+  physicalDesc: reagent-physical-desc-powdery
+  flavor: bitter
+  color: "#d2ddd6"
+  metabolisms:
+    Narcotic:
+      effects:
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.35
+        sprintSpeedModifier: 1.35
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 30
+        damage:
+          types:
+            Poison: 4 # this is added to the base damage of the meth.
+            Asphyxiation: 2
+      - !type:Jitter
+      - !type:GenericStatusEffect
+        key: Stun
+        time: 1
+        type: Remove
+      - !type:GenericStatusEffect
+        key: KnockedDown
+        time: 1
+        type: Remove
+      - !type:PopupMessage
+        visualType: Medium
+        messages: ["ephedrine-effect-tight-pain", "ephedrine-effect-heart-pounds"]
+        type: Local
+        probability: 0.05
+      - !type:ChemVomit # Vomiting is a symptom of brain damage
+        probability: 0.05
+      - !type:Drunk # Headaches and slurring are major symptoms of brain damage, this is close enough
+        boozePower: 2
