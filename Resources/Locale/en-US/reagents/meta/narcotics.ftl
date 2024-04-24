@@ -44,4 +44,7 @@ reagent-name-happiness = happiness
 reagent-desc-happiness = Fills you with ecstatic numbness and causes minor brain damage. Highly addictive. If overdosed causes sudden mood swings.
 
 reagent-name-fentanyl = fentanyl
-reagent-desc-fentanyl = A dangerous drug that makes you faster and harder to knock down. Severe nerval stress is certain.
+reagent-desc-fentanyl = A chemical that makes you faster and harder to knock down. Stresses the body in even moderate dosage.
+
+reagent-name-carfentanyl = carfentanyl
+reagent-desc-carfentanyl = A condensed chemical, an analogue of fentanyl that can take down an elephant. Severe nerval stress is certain.

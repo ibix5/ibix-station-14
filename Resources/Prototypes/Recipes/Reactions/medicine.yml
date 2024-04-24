@@ -583,16 +583,6 @@
       amount: 2
   products:
     Aloxadone: 4
-
-- type: reaction
-  id: Fentanyl
-  minTemp: 674
-  reactants:
-    SpaceDrugs:
-      amount: 3
-  products:
-    Fentanyl: 3
-
 - type: reaction
   id: Psicodine
   impact: Medium
@@ -632,3 +622,22 @@
       catalyst: true
   products:
     Happiness: 4
+#New drugs added for fun. by ibix
+- type: reaction
+  id: Fentanyl
+  minTemp: 540
+  reactants:
+    SpaceDrugs:
+      amount: 3
+  products:
+    Fentanyl: 3
+- type: reaction
+  id: Carfentanyl
+  impact: Medium
+  minTemp: 674
+  reactants:
+    Fentanyl:
+      amount: 10
+  products:
+    Carfentanyl: 1
+

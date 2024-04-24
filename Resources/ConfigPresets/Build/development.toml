@@ -1,8 +1,12 @@
-﻿[game]
-# Straight in-game baby
-lobbyenabled = false
+﻿[net]
+tickrate = 30
+
+[game]
+# Straight in-game
+hostname = "Ibix Station"
+lobbyenabled = true
 # Dev map for faster loading & convenience
-map = "Dev"
+map = "Bagel"
 role_timers = false
 
 [gateway]
