@@ -407,7 +407,6 @@
         conditions:
         - !type:ReagentThreshold
           min: 20
-
 - type: reagent
   id: Happiness
   name: reagent-name-happiness
@@ -544,3 +543,6 @@
         key: ForcedSleep
         time: 1
         type: Add
+
+
+
