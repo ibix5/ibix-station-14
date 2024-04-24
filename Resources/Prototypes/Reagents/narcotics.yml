@@ -407,6 +407,7 @@
         conditions:
         - !type:ReagentThreshold
           min: 20
+
 - type: reagent
   id: Happiness
   name: reagent-name-happiness

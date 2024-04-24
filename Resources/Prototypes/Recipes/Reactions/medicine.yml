@@ -582,4 +582,63 @@
     Sigynate:
       amount: 2
   products:
-      Aloxadone: 4
+    Aloxadone: 4
+
+- type: reaction
+  id: Psicodine
+  impact: Medium
+  reactants:
+    Mannitol:
+      amount: 2
+    Impedrezene:
+      amount: 1
+    Water:
+      amount: 2
+  products:
+      Psicodine: 4
+
+- type: reaction
+  id: Lipolicide
+  reactants:
+    Ephedrine:
+      amount: 1
+    Diethylamine:
+      amount: 1
+    Mercury:
+      amount: 1
+  products:
+    Lipolicide: 3
+
+- type: reaction
+  id: Happiness
+  reactants:
+    Laughter:
+      amount: 2
+    Epinephrine:
+      amount: 1
+    Ethanol:
+      amount: 1
+    Plasma:
+      amount: 5
+      catalyst: true
+  products:
+    Happiness: 4
+
+#New drugs added for fun. by ibix
+- type: reaction
+  id: Fentanyl
+  minTemp: 540
+  reactants:
+    SpaceDrugs:
+      amount: 3
+  products:
+    Fentanyl: 3
+- type: reaction
+  id: Carfentanyl
+  impact: Medium
+  minTemp: 674
+  reactants:
+    Fentanyl:
+      amount: 10
+  products:
+    Carfentanyl: 1
