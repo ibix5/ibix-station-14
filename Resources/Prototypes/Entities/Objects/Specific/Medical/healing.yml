@@ -970,7 +970,7 @@
         - ReagentId: Stimulants
           Quantity: 15
 
-#Additional drugs
+#Additional drugs for fun. By Ibix
 - type: entity
   name: fentanyl
   parent: Pill
@@ -979,7 +979,20 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 20
+        maxVol: 15
         reagents:
         - ReagentId: Fentanyl
-          Quantity: 15
+          Quantity: 10
+
+- type: entity
+  name: fentanyl
+  parent: Pill
+  id: PillCarfentanyl
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Carfentanyl
+          Quantity: 1
